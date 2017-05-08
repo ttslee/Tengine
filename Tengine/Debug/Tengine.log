@@ -1,0 +1,42 @@
+﻿Build started 4/29/2017 5:44:35 PM.
+     1>Project "G:\c++\Graphics\Tengine\Tengine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera2D.cpp Errors.cpp GLSLProgram.cpp ImageLoader.cpp InputManager.cpp IOManager.cpp PicoPNG.cpp ResourceManager.cpp Sprite.cpp SpriteBatch.cpp Tengine.cpp TextureCache.cpp Window.cpp
+         Window.cpp
+         TextureCache.cpp
+         Tengine.cpp
+         SpriteBatch.cpp
+         Sprite.cpp
+         ResourceManager.cpp
+         PicoPNG.cpp
+         IOManager.cpp
+     1>g:\c++\graphics\tengine\iomanager.cpp(14): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>g:\c++\graphics\tengine\iomanager.cpp(20): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         InputManager.cpp
+         ImageLoader.cpp
+         GLSLProgram.cpp
+     1>g:\c++\graphics\tengine\glslprogram.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\c++\graphics\tengine\glslprogram.cpp(136): warning C4018: '<' : signed/unsigned mismatch
+         Errors.cpp
+         Camera2D.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\c++\Graphics\Debug\Tengine.lib" /NOLOGO Debug\Camera2D.obj
+         Debug\Errors.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\PicoPNG.obj
+         Debug\ResourceManager.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\Tengine.obj
+         Debug\TextureCache.obj
+         Debug\Window.obj
+         Tengine.vcxproj -> G:\c++\Graphics\Debug\Tengine.lib
+     1>Done Building Project "G:\c++\Graphics\Tengine\Tengine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.81
