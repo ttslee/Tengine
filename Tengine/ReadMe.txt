@@ -1,6 +1,7 @@
 ========================================================================
     STATIC LIBRARY : Tengine Project Overview
 ========================================================================
+This Engine is in-complete as is. More work needs to be done before it is operational.
 
 AppWizard has created this Tengine library project for you.
 
